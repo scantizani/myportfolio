@@ -1,0 +1,73 @@
+/* Estilização da Página de Contato */
+.contact-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Mensagem de sucesso */
+.success-message {
+  color: green;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Formulário estruturado */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+/* Grupo de cada campo */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Caixa de mensagem maior */
+.form-group textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Botão estilizado */
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
